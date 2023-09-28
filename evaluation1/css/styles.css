@@ -1,0 +1,19 @@
+/**
+ * Student Name: Yuchen Tu
+ * Student Number: 8916304
+ */
+
+body {
+    padding: 20px;
+    font:
+        bold 0.8em/1.2 Arial,
+        sans-serif;
+    height: 100vh;
+    width: (100vw-20px);
+    background-color: hsla(166, 20%, 70%, 1);
+}
+
+h2 {
+    color: #0f7;
+    font-size: 2rem;
+}
