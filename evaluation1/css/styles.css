@@ -17,3 +17,54 @@ h2 {
     color: #0f7;
     font-size: 2rem;
 }
+
+main {
+    float: left;
+    width: 65vw;
+}
+
+aside {
+    float: right;
+    width: 25vw;
+}
+
+footer {
+    clear: both;
+}
+
+.structural {
+    border: solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+#p1 {
+    color: #573;
+}
+
+#p2 {
+    color: #0400ff;
+}
+
+main.structural {
+    background-color: hsla(230, 50%, 80%, 1);
+}
+
+aside.structural {
+    background-color: hsla(90, 20%, 40%, 1);
+}
+
+footer.structural {
+    background-color: hsla(266, 20%, 70%, 1);
+}
+
+header.structural {
+    background-color: hsla(0, 100%, 100%, 1);
+}
+
+a:hover {
+    color: #fff;
+}
+footer > p{
+    font-size: 10px;
+}
