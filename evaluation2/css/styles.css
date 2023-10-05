@@ -48,10 +48,12 @@ footer {
 
 main.structural {
     background-color: hsla(230, 50%, 80%, 1);
+    height: 70vh;
 }
 
 aside.structural {
     background-color: hsla(90, 20%, 40%, 1);
+    height: 70vh;
 }
 
 footer.structural {
