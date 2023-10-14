@@ -1,0 +1,80 @@
+/**
+ * Student Name: Yuchen Tu
+ * Student Number: 8916304
+ */
+#img1 {
+    width: 200px;
+}
+body {
+    max-width: 100vw;
+    width: 99vw;
+    margin: auto;
+    font: 1em sans-serif;
+    padding: 20px;
+}
+
+header, footer {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    clear: both;
+}
+
+h1 {
+    font-variant-caps: small-caps;
+    color: #00e1ff;
+}
+
+h2 {
+    color: #0026ff;
+    font-variant-caps: small-caps;
+}
+
+footer p {
+    font-size: 5px;
+    color: rgb(107, 105, 78);
+}
+
+main {
+    float: left;
+    margin: 0;
+    padding: 5px;
+    width: calc(70vw - 20px);
+}
+
+aside {
+    float: right;
+    margin: 0;
+    padding: 5px;
+    width: calc(30vw - 20px);
+}
+
+.mainimg {
+    border: 1px solid #000;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant-caps: small-caps;
+}
+
+q {
+    font-style: italic;
+    font-size: large;
+    font-family: cursive;
+}
+
+ul > li {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+li > a {
+    text-decoration: none;
+    color: #7e7753;
+}
+
+aside a:hover {
+    color: #f5e387;
+}
