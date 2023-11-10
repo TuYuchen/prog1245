@@ -13,6 +13,12 @@ body {
     background-color: hsla(166, 20%, 70%, 1);
 }
 
+h1 {
+    font-size: 40px; 
+    color: #00ff7b; 
+    text-align: center;
+}
+
 h2 {
     color: #0f7;
     font-size: 2rem;
@@ -65,8 +71,68 @@ header.structural {
 }
 
 a:hover {
-    color: #fff;
+    color: #000000;
 }
 footer > p{
     font-size: 10px;
+}
+
+ul {
+    list-style-type: square;
+    }
+
+ul li, a{
+    line-height: 2em;
+    color: rgba(255, 99, 71, 0.5)
+}
+
+nav ul li {
+    display: inline;
+    text-decoration: none;
+
+}
+
+nav li a {
+    padding: 10px;
+    display: inline-block;
+    border: indigo 2px solid;
+    color: indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: cornsilk;
+    background-color: indigo;
+}
+
+form {
+    border: #0f7 5px dashed;
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    height: 2em;
+    width: 2em;
+}
+
+textarea {
+    width: 50%;
+    display: block;
+}
+
+fieldset {
+    border: none;
+}
+
+select, option, label, legend, select > option, select, nav a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
 }
