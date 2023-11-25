@@ -132,7 +132,7 @@ fieldset {
     border: none;
 }
 
-select, option, label, legend, select > option, select, nav a {
+input[type="submit"], select, option, label, legend, select > option, select, nav a {
     font-size: 1.5rem;
     font-weight: bold;
     font-variant: small-caps;
