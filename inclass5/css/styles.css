@@ -53,7 +53,8 @@ footer {
 }
 
 main.structural {
-    background-color: hsla(230, 50%, 80%, 1);
+    background-color: #b3bbe6;
+    min-height: 70vh;
     height: 100%;
 }
 
