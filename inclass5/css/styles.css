@@ -3,45 +3,45 @@
  * Student Number: 8916304
  */
 
-body {
-    padding: 20px;
+html {
     font:
         bold 0.8em/1.2 Arial,
         sans-serif;
+}
+ 
+body {
+    padding: 1rem;
     height: 100vh;
-    width: (100vw-20px);
+    width: (100vw-1rem);
     background-color: hsla(166, 20%, 70%, 1);
 }
 
 h1 {
-    font-size: 40px; 
+    font-size: 2.5rem; 
     color: #00ff7b; 
     text-align: center;
 }
 
 h2 {
     color: #0f7;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 main {
-    float: left;
-    width: 65vw;
+    flex: 2 1 70%;
 }
 
 aside {
-    float: right;
-    width: 25vw;
+    flex: 1 1 30%;
 }
 
 footer {
-    clear: both;
+   padding: 0 0.5rem;
 }
 
 .structural {
     border: solid;
-    margin: 5px;
-    padding: 5px;
+    margin: 1rem;
 }
 
 #p1 {
@@ -54,10 +54,11 @@ footer {
 
 main.structural {
     background-color: hsla(230, 50%, 80%, 1);
-    height: 70vh;
+    height: 100%;
 }
 
 aside.structural {
+    padding: 1rem;
     background-color: hsla(90, 20%, 40%, 1);
     height: 70vh;
 }
@@ -74,7 +75,7 @@ a:hover {
     color: #000000;
 }
 footer > p{
-    font-size: 10px;
+    font-size: 1rem;
 }
 
 ul {
@@ -93,9 +94,9 @@ nav ul li {
 }
 
 nav li a {
-    padding: 10px;
+    padding: 1em;
     display: inline-block;
-    border: indigo 2px solid;
+    border: indigo 0.1rem solid;
     color: indigo;
     background-color: cornsilk;
     text-decoration: none;
@@ -107,8 +108,8 @@ nav li a:hover {
 }
 
 form {
-    border: #0f7 5px dashed;
-    padding: 10px;
+    border: #0f7 0.1rem dashed;
+    padding: 1em;
 }
 
 input[type="text"] {
@@ -135,4 +136,47 @@ select, option, label, legend, select > option, select, nav a {
     font-size: 1.5rem;
     font-weight: bold;
     font-variant: small-caps;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+}
+
+#gallery img {
+    width: 80%;
+    height: 80%;
+}
+
+#gallery figure {
+    border: 0.1em solid #573;
+}
+
+@media (max-width : 600px) {
+    html {
+        font-size: 10px;
+    }
+
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        row-gap: 1rem;
+    }
+    section {
+        display: block;
+    }
+    aside.structural {
+        height: 20vh;
+    }
 }
