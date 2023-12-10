@@ -79,3 +79,27 @@ li > a {
 aside a:hover {
     color: #f5e387;
 }
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content {
+    display: grid;
+    grid-column: 1 / 3;
+}
+
+.nav-dropdown{
+    display: flex;
+    flex-direction: column;
+}
+
+a.drop-down-content{
+    display: none;
+    text-decoration: none;
+}
+
+.nav-dropdown:hover a.drop-down-content {
+    display: block;
+}
