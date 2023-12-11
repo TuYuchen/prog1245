@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-    color: #0026ff;
+    color: #000000;
     font-variant-caps: small-caps;
 }
 
@@ -82,7 +82,7 @@ ul > li {
 
 li > a {
     text-decoration: none;
-    color: #7e7753;
+    color: #000000;
 }
 
 aside a:hover {
