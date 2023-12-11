@@ -1,0 +1,62 @@
+<!--
+    Name: YUCHEN TU
+    Email: xxxx668899@gmail.com
+    Student No.: 8916304
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Alan Turing - Sometimes it is the people no one imagines anything of who do the things that no one can imagine">
+    <meta name="description" content="Alan Turing's Bio">
+    <meta name="keywords" content="Alan Turing, Computer inventor, Father of computer, LGBT">
+    <meta name="robots" content="index, follow">
+    <title>Alan Turing - Sometimes it is the people no one imagines anything of who do the things that no one can imagine</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
+</head>
+<body>
+    <header><h1>Alan Turing</h1></header>
+    <nav>
+        <nav class="structural">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li class="nav-dropdown">
+                    <a class="dropbtn" href="#">MEDIA</a>
+                    <div class="nav-dropdown-content">
+                        <a href="video.html">VIDEO</a>
+                        <a href="gallery.html">GALLERY</a>
+                    </div>
+                </li> 
+            </ul>
+        </nav>
+    </nav>
+    <div class="main-content">
+        <main>
+            <form>
+                <label for="firstname"> First Name: </label>
+                <input type="text" name="firstname" id="firstname" required maxlength="45">
+                <label for="lastname"> Last Name: </label>
+                <input type="text" name="lastname" id="lastname" required maxlength="45">
+                <label for="firstname"> E-Mail: </label>
+                <input type="text" name="email" id="email" required maxlength="45">
+                <label for="lastname"> TEL: </label>
+                <input type="text" name="tel" id="tel" maxlength="45">
+                <label>
+                    Choose your preferred contact date:
+                    <input type="date" name="date" min="2023-01-01" max="2024-01-31" />
+                </label>
+                <fieldset required>
+                    <legend>Do you agree to the terms?</legend>
+                    <label><input type="radio" name="radio" value="yes" required/>Yes</label>
+                    <label><input type="radio" name="radio" value="no" />No</label>
+                  </fieldset>
+                <button class="submit-btn">Submit</button>
+            </form>
+        </main>
+    </div>
+    <footer><p>&copy; 14 OCT 2023, YUCHEN TU</p></footer>
+</body>
+</html>
